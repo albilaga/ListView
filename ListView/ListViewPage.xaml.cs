@@ -7,6 +7,8 @@ namespace ListView
 		public ListViewPage()
 		{
 			InitializeComponent();
+			var vm = new ListViewModel();
+			this.BindingContext = vm;
 		}
 	}
 }

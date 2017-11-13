@@ -1,10 +1,9 @@
-﻿using System;
-namespace ListView
+﻿namespace ListView
 {
 	public class Event
 	{
-		public Event()
-		{
-		}
+		public string BannerImageUri { get; set; }
+		public string name { get; set; }
+		public string datetime { get; set; }
 	}
 }
